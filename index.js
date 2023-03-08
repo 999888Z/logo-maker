@@ -59,13 +59,14 @@
 //         2a. Circle (Classes, render())
 //         2b. Square (Classes, render())
 //         2c. Triangle (Classes, render())
-//     3. SVG class (text, shape) - shape and text merge together and then rendered
+//     3.  
 
 
 //     Write final product to SVG file
 
 // FIGURE OUT LAST: How do we pass color into the object?
 
+const shapes = require("./Main/lib/shapes")
 const fs = require('fs');
 const PromptUser = require('./Main/lib/questions.js');
 
@@ -73,9 +74,10 @@ const promptUser = new PromptUser();
 
 promptUser.run();
 
-// function writeToFile(info) {
-//         fs.writeFile('./Main/examples/logo.svg',"this is data", (err) =>
-//        err ? console.error(err) : console.log('Success!')
-//      );
-//     }
-// writeToFile()
+class Triangle extends Shapes {
+            
+    render() {
+        return `<polygon points="150, 18 244, 182 56, 182" fill="${setColor}" />`;
+}}
+
+module.exports = Triangle;

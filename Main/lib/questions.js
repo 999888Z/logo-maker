@@ -26,7 +26,7 @@ class PromptUser   {
     {
         type: 'input',
         message: 'Enter a shape color.',
-        name: 'shapeColor'
+        name: 'setColor'
     },
 ])
 
@@ -34,7 +34,7 @@ class PromptUser   {
      
       .then((answers) => {
    
-        const shapeChoice = new Shapes(answers.shape, answers.shapeColor, answers.letters, answers.textColor)
+        const shapeChoice = new Shapes(answers.shape, answers.setColor, answers.letters, answers.textColor)
     })
      
 
