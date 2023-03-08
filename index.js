@@ -66,18 +66,11 @@
 
 // FIGURE OUT LAST: How do we pass color into the object?
 
-const shapes = require("./Main/lib/shapes")
-const fs = require('fs');
+// const shapes = require("./Main/lib/shapes")
+// const fs = require('fs');
 const PromptUser = require('./Main/lib/questions.js');
 
 const promptUser = new PromptUser();
 
 promptUser.run();
 
-class Triangle extends Shapes {
-            
-    render() {
-        return `<polygon points="150, 18 244, 182 56, 182" fill="${setColor}" />`;
-}}
-
-module.exports = Triangle;
