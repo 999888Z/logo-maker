@@ -1,0 +1,2 @@
+<svg width = "300" height = "200"> <rect x="20" y="20" width="110" height="110" fill="white"/>
+<text x="40" y="95" font-size="40" font-family="Arial" fill="blue">add</text> </svg>

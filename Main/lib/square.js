@@ -1,6 +1,6 @@
 const Shapes = require("./shapes");
 
-class Triangle extends Shapes {
+class Square extends Shapes {
   constructor(color) {
     super(color);
   }
@@ -8,8 +8,8 @@ class Triangle extends Shapes {
     return (this.color = color);
   }
   render() {
-    return` <polygon points="150, 18 244, 182 56, 182" fill="${this.color}" />`;
+    return` <rect x="20" y="20" width="110" height="110" fill="${this.color}"/>`;
   }
 }
 
-module.exports = Triangle;
+module.exports = Square;
