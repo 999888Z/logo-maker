@@ -13,7 +13,9 @@ Allows user to choose text, shape and color in order to generate a logo in SVG f
 ## Installation
 To run this program, open in VS Code. Then in the Terminal, type "node index".
 ## Usage
-To create an SVG logo, follow the prompts to design a logo.
+To create an SVG logo, follow the prompts to design a logo. The following is a link to a walkthrough video of the application:
+
+
 ## License
 This application is licensed under MIT.
 ## Contributing
