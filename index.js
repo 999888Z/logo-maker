@@ -56,18 +56,18 @@
                     // 1d. Instantiate a new SVG object with the text AND the shape selected
                     // 1e. Write the SVG object to file called 'logo.svg'
 //     2. Shape (color)
-//         2a. Circle (Classes, render())
+//         2a. Circle (Classes, render() - the render method here returns the code for creating a circle)
 //         2b. Square (Classes, render())
 //         2c. Triangle (Classes, render())
-//     3.  
+//     3. SVG class (text, shape, render () - "render method") - shape and text merge together and then rendered and color is passed 
+// onto the object
 
 
 //     Write final product to SVG file
 
 // FIGURE OUT LAST: How do we pass color into the object?
 
-// const shapes = require("./Main/lib/shapes")
-// const fs = require('fs');
+
 const PromptUser = require('./Main/lib/questions.js');
 
 const promptUser = new PromptUser();

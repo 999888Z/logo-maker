@@ -24,7 +24,10 @@ class Shapes {
 class Triangle extends Shapes {
   constructor(setColor) {
     super(setColor);
+    console.log(setColor)
   }
+  
+  
   render() {
     return `<polygon points="150, 18 244, 182 56, 182" fill="${this.setColor}" />`;
   }
