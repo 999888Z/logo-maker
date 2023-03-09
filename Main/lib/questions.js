@@ -26,6 +26,14 @@ class PromptUser {
             "Enter text for the logo. (Must not be more than 3 characters.)",
 
           name: "letters",
+
+          validate: function (answer) {
+            if (answer.length > 3) {
+                return "Must not be more than 3 characters."
+            }
+
+            return true;
+          }
         },
 
         {

@@ -8,7 +8,7 @@ class Square extends Shapes {
     return (this.color = color);
   }
   render() {
-    return` <rect x="20" y="20" width="110" height="110" fill="${this.color}"/>`;
+    return`<rect x="20" y="20" width="110" height="110" fill="${this.color}"/>`;
   }
 }
 
