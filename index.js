@@ -68,7 +68,7 @@
 // FIGURE OUT LAST: How do we pass color into the object?
 
 
-const PromptUser = require('./questions.js');
+const PromptUser = require('./lib/questions.js');
 
 const promptUser = new PromptUser();
 
