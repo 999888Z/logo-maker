@@ -15,7 +15,7 @@ To run this program, open in VS Code. Then in the Terminal, type "node index".
 ## Usage
 To create an SVG logo, follow the prompts to design a logo. The following is a link to a walkthrough video of the application:
 
-https://drive.google.com/file/d/1LY5oksUJiAZGEJGcZBEGU1jVWhuPSVXp/view
+https://drive.google.com/file/d/15g4oJeEFgJ5N8wMs3SbM4ncvOi-YdTS8/view
 ## License
 This application is licensed under MIT.
 ## Contributing
