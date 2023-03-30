@@ -91,7 +91,7 @@ class PromptUser {
 
         const allData = shapeColor + addText.render();
 
-        fs.writeFile("./Main/examples/logo.svg", allData, (err) =>
+        fs.writeFile("./logo.svg", allData, (err) =>
           err ? console.error(err) : console.log("Generated logo.svg")
         );
       })
